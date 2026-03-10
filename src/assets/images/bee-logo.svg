@@ -1,0 +1,22 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3CD6C"/>
+      <stop offset="1" stop-color="#B88322"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="72" stroke="url(#gold)" stroke-width="4"/>
+  <circle cx="80" cy="80" r="64" fill="#090A0F"/>
+  <g stroke="url(#gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <ellipse cx="80" cy="86" rx="18" ry="24"/>
+    <path d="M70 76H90"/>
+    <path d="M68 86H92"/>
+    <path d="M70 96H90"/>
+    <ellipse cx="57" cy="71" rx="20" ry="10" transform="rotate(-28 57 71)"/>
+    <ellipse cx="103" cy="71" rx="20" ry="10" transform="rotate(28 103 71)"/>
+    <path d="M73 57L66 47"/>
+    <path d="M87 57L94 47"/>
+    <circle cx="74" cy="66" r="2" fill="url(#gold)"/>
+    <circle cx="86" cy="66" r="2" fill="url(#gold)"/>
+  </g>
+</svg>

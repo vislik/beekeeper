@@ -1,0 +1,54 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldStroke" x1="24" y1="20" x2="196" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4D88D"/>
+      <stop offset="0.55" stop-color="#D2A64E"/>
+      <stop offset="1" stop-color="#A9751D"/>
+    </linearGradient>
+    <radialGradient id="innerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(110 110) rotate(90) scale(96)">
+      <stop offset="0" stop-color="#11131D"/>
+      <stop offset="1" stop-color="#090A10"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="110" cy="110" r="98" fill="url(#innerGlow)"/>
+  <circle cx="110" cy="110" r="97" stroke="url(#goldStroke)" stroke-width="4"/>
+
+  <g stroke="url(#goldStroke)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <ellipse cx="110" cy="88" rx="16" ry="15" stroke-width="3.2"/>
+
+    <path d="M101 75L90 58" stroke-width="2.4"/>
+    <path d="M119 75L130 58" stroke-width="2.4"/>
+    <path d="M88 57C84 54 80 54 76 57" stroke-width="2"/>
+    <path d="M132 57C136 54 140 54 144 57" stroke-width="2"/>
+
+    <path d="M96 88C81 74 57 64 43 78C32 88 39 104 55 106C67 108 79 100 93 92" stroke-width="2.7"/>
+    <path d="M124 88C139 74 163 64 177 78C188 88 181 104 165 106C153 108 141 100 127 92" stroke-width="2.7"/>
+
+    <path d="M96 89C83 86 67 86 56 94" stroke-width="1.6" opacity="0.9"/>
+    <path d="M124 89C137 86 153 86 164 94" stroke-width="1.6" opacity="0.9"/>
+    <path d="M98 86C90 79 76 73 66 76" stroke-width="1.6" opacity="0.9"/>
+    <path d="M122 86C130 79 144 73 154 76" stroke-width="1.6" opacity="0.9"/>
+
+    <ellipse cx="110" cy="117" rx="22" ry="30" stroke-width="3.4"/>
+
+    <path d="M97 103H123" stroke-width="2.4"/>
+    <path d="M94 112H126" stroke-width="2.4"/>
+    <path d="M92 121H128" stroke-width="2.4"/>
+    <path d="M94 130H126" stroke-width="2.4"/>
+
+    <path d="M89 118L74 123" stroke-width="2.3"/>
+    <path d="M91 127L75 137" stroke-width="2.3"/>
+    <path d="M95 136L82 150" stroke-width="2.3"/>
+
+    <path d="M131 118L146 123" stroke-width="2.3"/>
+    <path d="M129 127L145 137" stroke-width="2.3"/>
+    <path d="M125 136L138 150" stroke-width="2.3"/>
+
+    <path d="M105 145C106 156 107 164 110 171" stroke-width="2.2"/>
+    <path d="M115 145C114 156 113 164 110 171" stroke-width="2.2"/>
+  </g>
+
+  <circle cx="104" cy="84" r="1.8" fill="url(#goldStroke)"/>
+  <circle cx="116" cy="84" r="1.8" fill="url(#goldStroke)"/>
+</svg>
